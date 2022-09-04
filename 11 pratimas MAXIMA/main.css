@@ -1,0 +1,55 @@
+body{
+    background-color: gray;
+}
+div.One{
+width: 800px;
+height: 500px;
+  background: #f9f9f9;
+  margin: 0 auto;
+
+}
+
+img{
+    max-width: 100%;
+}
+header{
+    text-align: center;
+}
+div.Two{
+    text-align: justify;
+    width: 800px;
+    background: #f9f9f9;
+    font-weight: bold;
+    margin: 0 auto;
+}
+div.Three{
+    background: #f9f9f9;
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+
+}
+img.Ob{
+    height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
+p.Produktai{
+    font-weight: bold;
+    font-size: 0.7cm;
+}
+div.Four{
+    background: #f9f9f9;
+    max-width: 100%;
+    width: 800px;
+    margin: 0 auto;
+}
+h2, h3, h4{
+    font-size: 1cm;
+    font-weight: bold;
+    text-align: center;
+}
+P.Ar{
+    font-weight: bold;  
+}
+

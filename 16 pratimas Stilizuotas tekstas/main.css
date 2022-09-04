@@ -1,0 +1,9 @@
+H1::after{
+    content: "  XXX  ";
+    color: brown;
+}
+h1::before{
+    content: "  XXX  ";
+    color: brown;
+    text-size-adjust: 5px;
+}

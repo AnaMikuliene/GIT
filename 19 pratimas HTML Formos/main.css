@@ -1,0 +1,22 @@
+input:checked {
+    border: none;
+    outline: 2px solid deeppink;
+}
+button:hover{
+    background: green;
+}
+button{
+    background: greenyellow;
+}
+input:focus{
+    outline: 2px solid yellow;
+}
+input:valid,
+input:in-range {
+  border: 2px solid green;
+}
+
+input:invalid,
+input:out-of-range {
+  border: 2px solid red;
+}

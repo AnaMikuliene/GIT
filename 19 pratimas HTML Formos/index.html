@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+    <H1>Payment form</H1>
+    <p>requred fields are followed by.*.</p>
+    <h2>Contact information</h2>
+    <fieldset>
+       <form action="https://formspree.io/f/mvoygadl" method="POST"></form> 
+        <legend>Title</legend>
+        <input type="radio" id="Mister" name="title" value="mister" checked>
+        <label for="Mister">Mister</label><br>
+        <input type="radio" id="Miss" name="title" value="miss">
+        <label for="Miss">Miss</label>
+    </fieldset>
+    <label for="name">Name*</label>
+    <input type="text" id="name" required><br>
+    <label for="name">Email*</label>
+    <input type="text" id="name" required><br>
+    <label for="name">Pasvord*</label>
+    <input type="text" id="name" required><br>
+    <h3>Payment information</h4>
+        <label for="card-type">Card-type:</label>
+<select name="Card-type" id="card-type" required>
+<option value="Visa">Visa</option>
+<option value="mastercard">mastercard</option>
+<option value="mercedes">Mercedes</option>
+<option value="audi">Audi</option>
+</select><br>
+<label for="card-number">Card number*</label>
+    <input type="text" maxlength="16" id="card" required><br>
+    <label for="expiration-date">Expiration-date*</label>
+    <input type="date" name="expiration-date" id="card-number" required><br>
+<i>fornted as mm/yy</i><br>
+<button type="submit">validate the payment</button>
+</body>
+</html>

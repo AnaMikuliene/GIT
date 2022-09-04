@@ -1,0 +1,61 @@
+h1::before{
+    content: "Futbolo";
+    color: blue;
+}
+h1{
+    color: yellow;
+    font-size: 30px;
+    text-align: center;
+}
+div{
+    text-align: center;
+    background-color: black;
+    display: block;
+    width: 700px;
+    height: 700px;
+   
+}
+tr.head{
+    background-color: black;
+}
+h2{
+    color: red;
+    font-size: 10px;
+    text-align: center;
+}
+th{
+    background: black;
+    font-weight: bold;
+    color: white;
+}
+td, th{
+    border: 1px solid rgba(153, 153, 153, 0);
+    padding: 1rem;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+td:first-child{
+    color: red;
+}
+td{color: white;
+
+}
+tr:nth-child(odd){
+    background-color: rgba(128, 128, 128, 0.267);
+}
+tr:nth-child(even){
+    background-color: rgba(128, 128, 128, 0.493);
+}
+button.P{
+    background-color: green;
+}
+button.L{
+    background-color: yellow;
+}
+button.Pr{
+    background-color: red;
+}
+

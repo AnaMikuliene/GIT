@@ -1,0 +1,15 @@
+a:not(:first-of-type)::before {
+content:"//"
+}
+a:not(1){
+    content: "//";
+}
+nav{
+    font-size: large;
+    
+}
+a{
+   color: gold; 
+   text-decoration: none;
+   margin: 15px;
+}

@@ -1,0 +1,27 @@
+
+div.nav{
+    background: yellow;
+    color: white;
+}
+
+
+td, th{
+    border: 1px solid #999;
+    padding: 1rem;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    border: 2px solid red;
+    margin-bottom: 20px;
+}
+td.Bacgraund{
+    background: orange;
+    color: white;
+}
+main table{
+    margin: 20px 0 0 0;
+}
+tr.Bold{
+    font-weight: bold;
+}

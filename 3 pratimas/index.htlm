@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="LOGO" alt="LOGO">
+        <nav>
+            <a href="">meniu1</a>
+            <a href="">meniu2</a>
+            <a href="">meniu3</a>
+        </nav>
+    </header>
+    <main>
+        <section> 
+            <h1>SUPER HEADLINE</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero eum odio facilis deserunt in repudiandae doloribus nihil illo laboriosam earum maxime, mollitia similique tenetur minus sit laudantium reprehenderit debitis expedita?
+    </p></section>
+    <section>
+        <h2>HEADLINE</h2>
+        <img src="Nuotrauka" alt="Nuotrauka">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque excepturi assumenda voluptates, nostrum necessitatibus distinctio molestiae dolorum modi perspiciatis ipsa rem itaque. Dignissimos blanditiis distinctio sed voluptatem consectetur tempore temporibus.</p>
+    </section>
+    <section>
+        <h2>HEADLINE</h2>
+        <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis qui quam cumque distinctio repudiandae eos vero, doloremque natus rem blanditiis repellendus placeat aperiam nam consequuntur nobis? Quo tempora assumenda repellat!</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam distinctio voluptatum, laborum error, natus itaque adipisci consequatur eveniet autem facilis vero nisi porro quasi dolores sapiente, minus hic. Similique, dolorem.</li>
+        </ul>
+    </section>
+ </main>
+       <footer>
+        <a href="">Nuoroda2</a>
+        <a href="">Nuorosa 3</a>
+       </footer>
+</body>
+</html>
