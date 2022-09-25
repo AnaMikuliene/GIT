@@ -1,0 +1,22 @@
+.container > div {
+    background: #eee;
+    padding: 1em;
+}
+.container > div:nth-child(odd) {
+    background: #ddd;
+}
+
+
+div.itemflex{
+    background-color: tomato;
+  width: 100%;
+  flex: 1;
+  margin: 10px;
+  text-align: center;
+  color: white;
+  padding: 10vh 0;
+}
+.flex {
+    display: flex;
+    min-height: 50vh;
+  }
