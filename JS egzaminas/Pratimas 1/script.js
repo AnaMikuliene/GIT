@@ -16,4 +16,4 @@ formElement.addEventListener("submit", (e) => {
     const g = enterKilograms.value / 0.001;
     const oz = enterKilograms.value * 35.274;
     output.innerHTML = `<p>lb: <span>${lb}</span></p><p>g: <span>${g}</span></p><p>oz: <span>${oz}</span></p>`
-})
+})   
